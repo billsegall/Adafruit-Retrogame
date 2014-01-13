@@ -84,12 +84,28 @@ struct {
 	int key;
 } io[] = {
 //	  Input    Output (from /usr/include/linux/input.h)
-	{ 25,      KEY_LEFT     },
-	{  9,      KEY_RIGHT    },
-	{ 10,      KEY_UP       },
-	{ 17,      KEY_DOWN     },
-	{ 23,      KEY_LEFTCTRL },
-	{  7,      KEY_LEFTALT  }
+
+// Player 1
+	{  2, KEY_LEFT     }, // left
+	{ 18, KEY_RIGHT    }, // right
+	{  3, KEY_UP       }, // up
+	{ 17, KEY_DOWN     }, // down
+	{ 27, KEY_LEFTCTRL }, // button 1
+	{ 22, KEY_LEFTALT  }, // button 2
+	{ 28, KEY_SPACE    }, // button 3
+	{ 23, KEY_1        }, // 1 player start
+	{ 29, KEY_5        }, // 1 player coin/credit
+
+// Player 2
+	{  4, KEY_D        }, // left
+	{ 11, KEY_G        }, // right
+	{ 10, KEY_R        }, // up
+	{  9, KEY_F        }, // down
+	{  8, KEY_A        }, // button 1
+	{  7, KEY_S        }, // button 2
+	{ 30, KEY_Q        }, // button 3
+	{ 24, KEY_2        }, // 2 player start
+	{ 31, KEY_6        }, // 2 player coin/credit
 };
 #define IOLEN (sizeof(io) / sizeof(io[0])) // io[] table size
 
