@@ -1,0 +1,26 @@
+P1,,,,,,,
+,pin #,gpio #,name,color,Player 1,Player 2,input.h KEY_
+,3,2,SDA,blue,left,,LEFT
+,5,3,SCL,brown,up,,UP
+,11,17,G17,orange,down,,DOWN
+,12,18,G18,green,right,,RIGHT
+,13,27,G27,yellow,button1,,LEFTCTL
+,15,22,G22,red,button2,,LEFTALT
+,16,23,G23,brown,1P,,1
+,18,24,G24,brown,,2P,2
+,7,4,G4,blue,,left,D
+,19,10,MOSI,brown,,up,R
+,21,9,MISO,orange,,down,F
+,23,11,SCLK,green,,right,G
+,24,8,SPI0 / CE0,yellow,,button1,A
+,26,7,SPI1 / CE1,red,,button2,S
+,6,,GND,black,,,
+,22,25,G25,blue,,,
+,8,,TXD,yellow,,,
+,10,,RXD,yellow,,,
+P5,,,,,,,
+,pin #,gpio #,name,color,Player 1,Player 2,input.h KEY_
+,3,28,I2C0_SDA,orange,button3,,space
+,4,29,I2C0_SCL,green,credit,,5
+,5,30,PCM_DIN,orange,,button3,Q
+,6,31,PCM_DOUT,green,,credit,6
